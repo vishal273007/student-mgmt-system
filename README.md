@@ -1,3 +1,3 @@
-# My Personal Portfolio Website
+# student-mgmt-system
 
-This is a personal portfolio website for Vishal Vishwakakarma.
+This is a project named Student Management System built using Core Java.
