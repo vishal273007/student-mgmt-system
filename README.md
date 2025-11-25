@@ -1,55 +1,62 @@
 # Student Management System (Core Java)
 
-Beginner-friendly console project to practice Core Java fundamentals while managing student records (add, list, search, update, delete) using plain Java SE.
+A simple console-based Java program to manage student records. 
+You can add, view, search, update, and delete students. 
+Built with Core Java, this project is great for practicing OOP, collections, and basic input validation.
 
 ---
 
-## Why this project?
+## Features
 
-- Reinforce **OOP** concepts (classes, encapsulation, simple service layer)
-- Practice with **`ArrayList`**, loops, and `Scanner`
-- Learn basic **input validation** and menu-driven programs 
-- Understand how to organize code with packages (`model`, `service`, `app`)
-
----
-
-## Prerequisites
-
-- JDK 8+ installed (`java -version` to confirm)
-- Any IDE or text editor that can run Java (IntelliJ IDEA, VS Code, etc.)
-- Terminal access to compile/run classes
+- Create student records (ID, Name, Age, Course, Marks)  
+- List all students  
+- Search by student ID  
+- Search students by name (partial match)  
+- Update student details  
+- Delete a student  
+- Basic validation for unique ID, age, and marks  
 
 ---
 
-## Quick Start
-
-```bash
-git clone https://github.com/vishal273007/student-mgmt-system.git
-cd student-mgmt-system
-javac -d out src/model/Student.java src/service/StudentService.java src/app/StudentManagementApp.java
-java -cp out app.StudentManagementApp
-```
-
-> Tip: In an IDE, just run `StudentManagementApp` and the console menu will appear.
-
----
-
-## Key Features
-
-| Action | What you practice |
-| --- | --- |
-| Add student | Creating objects, validating IDs/age/marks |
-| List students | Iterating over collections |
-| Search (ID / name) | Conditional logic + string comparisons |
-| Update / Delete | CRUD flow and error handling |
-
----
-
-## Project Layout
+## Project Structure
 
 ```
 src/
-├─ model/   → Student data class
-├─ service/ → CRUD + validation logic
-└─ app/     → Main menu + user input
+├── model/
+│   └── Student.java
+│
+├── service/
+│   └── StudentService.java
+│
+└── app/
+    └── StudentManagementApp.java
 ```
+
+- **model** – contains the Student class  
+- **service** – business logic (CRUD operations)  
+- **app** – main class with console menu  
+
+---
+
+## How to Run
+
+1. Clone the repository:  
+   ```
+   git clone https://github.com/vishal273007/student-mgmt-system
+   ```
+2. Open the project in IntelliJ IDEA (or any Java IDE)  
+3. Ensure JDK 8 or above is set  
+4. Run the main class:  
+   ```
+   app.StudentManagementApp
+   ```
+
+---
+
+## What This Project Demonstrates
+
+- Object-Oriented Programming (OOP)  
+- Working with `ArrayList`  
+- CRUD operations  
+- Basic input handling and validation  
+- Clean package organization  
