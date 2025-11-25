@@ -22,15 +22,14 @@ Built with Core Java, this project is great for practicing OOP, collections, and
 
 ```
 src/
-
 ├── model/
-│ └── Student.java
-
+│   └── Student.java
+│
 ├── service/
-│ └── StudentService.java
-
+│   └── StudentService.java
+│
 └── app/
-└── StudentManagementApp.java
+    └── StudentManagementApp.java
 ```
 
 - **model** – contains the Student class  
