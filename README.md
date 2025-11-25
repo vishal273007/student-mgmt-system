@@ -17,30 +17,33 @@ A simple console-based Java application that manages student records using Core 
 
 ## Project Structure
 
-
+```
 src/
 ├── model/
-│ └── Student.java
+│   └── Student.java
 ├── service/
-│ └── StudentService.java
+│   └── StudentService.java
 └── app/
-└── StudentManagementApp.java
+    └── StudentManagementApp.java
+```
 
-- **model** – student data structure (POJO)  
-- **service** – logic for CRUD operations  
-- **app** – main class with menu-driven console UI  
+- **model** – student data structure (POJO)
+- **service** – logic for CRUD operations
+- **app** – main class with menu-driven console UI
 
 ---
 
 ## How to Run
-1. Clone the repository  
-
-git clone https://github.com/vishal273007/student-mgmt-system
-2. Open the project in IntelliJ (or any Java IDE)  
-3. Use JDK 8+  
-4. Run the main class:  
-
-app.StudentManagementApp
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vishal273007/student-mgmt-system
+   ```
+2. Open the project in IntelliJ (or any Java IDE).
+3. Ensure JDK 8+ is configured.
+4. Run the main class:
+   ```
+   app.StudentManagementApp
+   ```
 
 ---
 
