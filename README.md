@@ -53,13 +53,3 @@ src/
 ├─ service/ → CRUD + validation logic
 └─ app/     → Main menu + user input
 ```
-
----
-
-## Next Practice Ideas
-
-1. Persist students to a text/JSON file.
-2. Add GPA/grade calculations.
-3. Replace console input with JavaFX/Swing (still Core Java).
-
-Keep this repo focused on Core Java only—Spring or other frameworks can live in a separate project.
