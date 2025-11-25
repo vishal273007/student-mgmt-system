@@ -4,19 +4,81 @@
 *.iml
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 # Compiled class files
 *.class
-
-# Log file
-*.log
-
-# Package Files
 *.jar
+
+# Build directory
+target/
+build/
+
+# Logs
+*.log
+hs_err_pid*
+
+# JavaFX specific
+*.fxml.cache
+
+# Gradle (if used in future)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/build/
+
+# Maven (if used in future)
+target/
+pom.xml.versionsBackup
+
+# VS Code
+.vscode/
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local development
+*.properties
+*.prefs
+*.rsp
+
+# Executable files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Database files
+*.db
+*.sqlite
+*.h2.db
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Maven target directory
+target/
+
+# Gradle files (if used in future)
+.gradle/
+build/
+
+# Package files
 *.war
-*.nar
 *.ear
 *.zip
 *.tar.gz
@@ -25,15 +87,10 @@ out/
 # virtual machine crash logs
 hs_err_pid*
 
-# Build directory
-target/
-build/
+# JavaFX Scene Builder
+*.fxml
+*.css
+*.properties
 
-# Mac OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# JavaFX CSS Cache
+*_jfx*/
