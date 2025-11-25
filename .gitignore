@@ -1,96 +1,19 @@
 # IntelliJ IDEA
 .idea/
-*.iws
 *.iml
-*.ipr
+
+# Build / output
 out/
+target/
+build/
 
-# Compiled class files
+# Java compiled classes
 *.class
-*.jar
 
-# Build directory
-target/
-build/
-
-# Logs
-*.log
-hs_err_pid*
-
-# JavaFX specific
-*.fxml.cache
-
-# Gradle (if used in future)
-.gradle/
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/build/
-
-# Maven (if used in future)
-target/
-pom.xml.versionsBackup
-
-# VS Code
-.vscode/
-
-# System Files
+# OS files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Local development
-*.properties
-*.prefs
-*.rsp
-
-# Executable files
-*.exe
-*.dll
-*.so
-*.dylib
-
-# Database files
-*.db
-*.sqlite
-*.h2.db
-
-# Backup files
-*.bak
-*.swp
-*~
-
-# IDE specific files
-.idea/
-*.iml
-*.ipr
-*.iws
-.idea_modules/
-
-# Maven target directory
-target/
-
-# Gradle files (if used in future)
-.gradle/
-build/
-
-# Package files
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs
+# Logs & crash reports
+*.log
 hs_err_pid*
-
-# JavaFX Scene Builder
-*.fxml
-*.css
-*.properties
-
-# JavaFX CSS Cache
-*_jfx*/
